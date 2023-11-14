@@ -1,0 +1,45 @@
+body {
+    font-family: 'Times New Roman';
+    background-color: white;
+}
+
+/* login CSS */
+
+.login {
+    font-family: 'Times New Roman';
+    background-color: white;
+    width: 30%;
+    margin-top: 2%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-left: 35%;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.login label {
+    margin-left: 73px;
+    margin-top: 10px;
+    font-weight: bold;
+
+}
+
+.login input {
+    margin-left: 70px;
+    width: 65%;
+    height: 35px;
+    margin-top: 10px;
+}
+
+#msg {
+    height: 40px;
+}
+
+#butn{
+ width: 20%;  
+ margin-bottom: 2%;
+ margin-top: 10%;
+ margin-left: 60%;
+}
+
+/* End of login CSS */

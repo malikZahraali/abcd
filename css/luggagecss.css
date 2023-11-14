@@ -1,0 +1,25 @@
+ body {
+     font-family: 'Times New Roman';
+     background-color: whitesmoke;
+
+ }
+
+ h5 {
+     text-align: center;
+ }
+
+ p {
+     text-align: justify;
+ }
+
+ .card-title {
+     color: tomato;
+ }
+
+ .btn {
+     color: black;
+ }
+
+ .btn:hover {
+     color: white;
+ }

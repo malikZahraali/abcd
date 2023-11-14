@@ -1,0 +1,34 @@
+body {
+  font-family: 'Times New Roman';
+  background-color: whitesmoke;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+
+}
+
+.container {
+  justify-content: center;
+}
+
+p {
+  text-align: justify;
+}
+
+h5 {
+  text-align: center;
+}
+
+.btn {
+  color: #000;
+}
+
+.btn:hover {
+  color: white;
+}
+
+.card-title {
+  font-weight: bold;
+  color: tomato;
+
+}

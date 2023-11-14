@@ -1,0 +1,56 @@
+
+    footer {
+        background-color: black;
+        font-family: 'Times New Roman';
+        padding: 10px;
+        
+    }
+    #fl{
+        margin-top: 26px;
+    
+      }
+    
+    
+    footer ul {
+        border-bottom: 1px solid white;
+        justify-content: center;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        
+        
+    }
+    
+    footer ul li {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+        
+    }
+    
+    footer ul li a {
+        text-decoration: none;
+        color: white;
+
+    }
+
+    footer ul li a:hover {
+        color: rgb(246, 110, 110);
+
+    }
+
+    footer p {
+        color: white;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #favicons {
+        background-color: white;
+        width: 30px;
+        margin-left: 10px;
+        height: 30px;
+        border-radius: 5px;
+    }
+
+    /* End Of Footer CSS */

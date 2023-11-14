@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/contact us.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title>Contact Us</title>
+</head>
+<body>
+     <!-- Start Of Navbar Section -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid p-0">
+      <a class="navbar-brand" href="#"><img src="/Images/log.jpg" alt="LOGO" style="width: 80px; height: 70px;"></a>
+      <a class="navbar-brand fs-5" href="/index.html">BAG-BAG</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-5" aria-current="page" href="/Mens Bags.html">MEN BAGS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-5" aria-current="page" href="/Womens Bags.html">WOMEN BAGS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-dark fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              CATEGORIES
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item fs-5" href="/sling bags.html">SLING BAGS</a></li>
+              <li><a class="dropdown-item fs-5" href="/luggage.html">LUGGAGE BAGS</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-5" aria-current="page" href="/contact us.html">CONTACT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fs-5" aria-current="page" href="/ab.html">ABOUT US</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        <a href="/login.html" class="btn btn-light btn-outline-success text-dark mx-2">LOGIN</a>
+        <a href="/contact us.html" class="btn btn-light btn-outline-success text-dark mx-2" download>DOWNLOAD PDF</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- End Of Navbar Section -->
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea><br>
+
+            <!-- <input type="submit" value="Submit"> -->
+            <div>
+            <button type="submit" class="submit-button" onclick="myFunction()">submit</button>
+        </div>
+        </form>
+    </div>
+    <script>
+        let submit = " ";
+function myFunction(){
+    submit +="Your Form Has Been Successfully Submitted.";
+    window.alert(submit);
+}
+    </script>
+
+  <!-- Start Of Footer Section -->
+  <footer id="fl">
+    <ul class="fs-5">
+      <li><a href="/map.html">FIND US</a></li>
+      <li><a href="/feedbackForm.html">FEED BACK</a></li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle text-light fs-5" href="#" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          ADVERTISEMENT
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item fs-5" href="/sling bags.html">MEN BAGS</a></li>
+          <li><a class="dropdown-item fs-5" href="/sling bags.html">SLING BAGS</a></li>
+          <li><a class="dropdown-item fs-5" href="/luggage.html">LUGGAGE BAGS</a></li>
+    </ul>
+    </li>
+    </ul>
+    <p>&copy; 2023 Auction Table, All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/bootstrap.bundle.js">
+  </script>
+
+  <!-- End Of Footer Section -->    
+</body>
+</html>

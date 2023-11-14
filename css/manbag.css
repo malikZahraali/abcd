@@ -1,0 +1,19 @@
+body{
+    font-family: 'Times New Roman';
+    background-color: whitesmoke;
+}
+.card {
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+p{
+    text-align: justify;
+}
+.card-title{
+    color: blue;
+}
